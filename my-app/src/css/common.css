@@ -1,0 +1,79 @@
+
+
+
+/*Spacing css Start*/
+.pt-3 {
+    padding-top: 1rem;
+}
+/*Spacing css End*/
+
+/*Text CSS Start*/
+.text-c {
+    text-align: center;
+}
+/*Text CSS End*/
+
+/*Form CSS Start*/
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.input-text{
+    font-size: 18px;
+    padding: 6px 15px;
+    height: 42px;
+}
+button {
+    font-size: 18px;
+    padding: 6px 15px;
+    height: 42px;
+    cursor: pointer;
+}
+.btn-blue {
+    background: #024881;
+    border: 2px solid #023e6e;
+    color: #FFF;
+}
+.error-text{
+    color: red;
+    font-weight: 500;
+}
+/*Form CSS End*/
+
+/*Alignment CSS Start*/
+.d-flex {
+    display: flex;
+}
+.justify-content-c {
+    justify-content: center;
+}
+/*Alignment CSS End*/
+
+/*Container Start*/
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/*Container End*/
